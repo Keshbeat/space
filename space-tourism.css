@@ -1,0 +1,239 @@
+body{
+    background-image:url(background-home-mobile.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+    margin: 0;
+    padding:0;
+    width:100%;
+    
+}
+header{
+    display:flex;
+    align-items: center;
+    justify-content: right;
+}
+
+nav{
+    display:flex;
+    border-style:outset;
+    background: #eddd;
+    height:140px;
+    width:180px;
+    margin: 10px;
+    padding-left: 20px;
+    padding-top: 0px;
+    
+}
+
+ul{
+
+    text-decoration: none;
+
+}
+li{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px; justify-content:center;
+    position:relative;
+    right:4em;
+    margin: 1em;
+    padding: 0em;
+    text-align: center;
+    line-height: 10px;
+}
+
+    a:hover{
+    font-size: 1.5em;
+    color: red;
+    }
+    
+    a{
+    color:azure;
+    display: flex;
+    font-size: small;
+    text-size-adjust:initial;
+    text-decoration-line:none
+    }
+
+    Main{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        margin:0px;
+        padding-left: 0px;
+    }
+    .wrapper{
+        margin: opx;
+        padding: 0px;
+
+    }
+    h3{
+        display:flex;
+        color:bisque;
+        justify-content: center;
+        padding: 0px;
+        margin-top: 25px;
+        margin-right: 50px;
+    }
+
+    h1{
+        display: flex;
+        color:bisque;
+        justify-content: center;
+        align-items: center;
+        font-size:50px;
+        font-family: cambria;
+        padding: 0px;
+        margin-right: 50px;
+        margin-top: 0px;
+        line-height: 0px;
+    }
+    p{
+        display:flex;
+        color:bisque;
+        justify-content: center;
+        text-align: center;
+        line-height: 20px;
+        padding-top:25px;
+    }
+
+    h2{
+        display: flex;
+        color: rgb(185, 185, 184);
+        justify-content: center;
+        align-items: center;
+        line-height: 75px;
+        border-radius: 50%;
+        background:  beige;
+        height: 200px;
+        width: 200px;
+        margin-left: 50px;
+    }
+
+    @media (min-width:700px) {
+        body{
+            background-image:url(background-home-desktop.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size:cover;
+            margin: 0;
+            padding:0;
+            width:100%;
+            
+        }
+        header{
+            display:flex;
+            
+        
+        }
+        
+        nav{
+            display:flex;
+            border: 1px;
+            background: rgba(33, 28, 46, 0.867);
+            height:80px;
+            width:50%;
+            justify-content: right;
+            align-items: right;
+            margin-top: 40px;
+            margin-left: 30em;
+            padding-left: 20px;
+            padding-top: 0px;
+            
+            
+        }
+        
+        ul{
+            display: flex;
+            text-decoration: none;
+        
+        }
+        li{
+            display: flex;
+            padding-top: 5px; justify-content:center;
+            align-items: center;
+            flex-direction: row;
+            margin-left: 2em;
+            padding: 0em;
+            text-align: center;
+        }
+        
+            a:hover{
+            font-size: 15px;
+            color: red;
+            
+            }
+            
+            a{
+            color:azure;
+            display: flex;
+            font-size: small;
+            text-decoration-line:none;
+            }
+        
+            Main{
+                display:flex;
+                align-items: left;
+                justify-content: left;
+                margin:0px;
+                padding: 0px;
+            }
+            .wrapper{
+                margin:0px;
+                padding: 0px;
+        
+            }
+            h3{
+                display:flex;
+                color:bisque;
+                justify-content: left;
+                font-size: 20px;
+                font-weight: 250px;
+                font-family: georgia;
+                padding: 0px;
+                margin-left: 6.5em;
+                margin-top: 5em;
+            }
+        
+            h1{
+                display: flex;
+                color:bisque;
+                justify-content: center;
+                align-items: center;
+                font-size:150px;
+                font-weight: 400px;
+                font-family: cambria;
+                padding: 0px;
+                margin-left: 1em;
+                line-height: 70px;
+            }
+            p{
+                display:flex;
+                color:bisque;
+                justify-content: center;
+                text-align: left;
+                font-size: 15px;
+                line-height: 25px;
+                position: relative;
+                bottom: 3.8em;
+            }
+        
+            h2{
+                display: flex;
+                color: rgb(185, 185, 184);
+                justify-content: center;
+                align-items: right;
+                border-radius: 50%;
+                background:  beige;
+                width: 200px;
+                position:relative;
+                left:37em;
+                bottom: 11em;
+                
+            }
+
+    }
+        

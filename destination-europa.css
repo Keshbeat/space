@@ -1,0 +1,159 @@
+body{
+    background-image:url(background-destination-desktop.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+    margin: 0;
+    padding:0;
+    width:100%;
+}
+
+
+header{
+    display:flex;
+    
+}
+
+nav{
+    display:flex;
+    border: 1px;
+    background: rgba(30, 30, 42, 0.867);
+    height:80px;
+    width:80%;
+    justify-content: right;
+    align-items: right;
+    margin-top: 40px;
+    margin-left: 30em;
+    padding-right: 70px;
+    padding-left: 0px;
+    padding-top: 0px;
+    
+}
+
+ul{
+    display: flex;
+    text-decoration: none;
+
+}
+li{
+    display: flex;
+    padding-top: 5px; 
+    justify-content:center;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 4em;
+    padding: 0px;
+    text-align: center;
+}
+
+    a:hover{
+    font-size: 15px;
+    color: red;
+    
+    }
+    
+    a{
+    color:azure;
+    display: flex;
+    font-size: small;
+    text-decoration-line:none;
+    }
+
+    Main{
+        display:flex;
+        align-items: right;
+        justify-content: right;
+        position: relative;
+        top:1em;
+        right:14em;
+        margin:0px;
+        padding: 0px;
+    }
+    .wrapper{
+        margin:0px;
+        padding: 0px;
+    }
+
+    h2{
+        display: flex;
+        padding-left: 150px;
+        color: azure;
+        position:relative;
+        top:0em;
+    }
+    .b{
+        display: flex;
+        padding-top: 5px; 
+        justify-content:center;
+        align-items: center;
+        flex-direction: row;
+        margin-left: 2em;
+        text-align: center;
+    }
+    p{
+        display: flex;
+        color: azure;
+        line-height: 25px;
+        padding-left: 100px;
+        align-items: right;
+        justify-content: right;
+        position: relative;
+        top:0px;
+        right:11em;
+    }
+
+    h1{
+        display: flex;
+        color:azure;
+        position:relative;
+        justify-content: right;
+        align-items: right;
+        right:10em;
+        font-size: 70px;
+        top:0px;
+    }
+    .c{
+        display:flex;
+        position:relative;
+        bottom:16em;
+        left:15em;
+    }
+    .d{
+        display: flex;
+        color: azure;
+        justify-content: right;
+        align-items: right;
+        position: relative;
+        right: 25.5em;
+        bottom: 12em;
+    }
+    .e{
+        display: flex;
+        color: azure;
+        justify-content: right;
+        align-items: right;
+        position: relative;
+        right: 11.7em;
+        bottom: 6.1em;
+        font-size: 30px;
+    }
+    .f{
+        display: flex;
+        color: azure;
+        justify-content: right;
+        align-items: right;
+        position: relative;
+        right: 10em;
+        bottom: 15.3em;
+    }
+    .g{
+        display: flex;
+        color: azure;
+        justify-content: right;
+        align-items: right;
+        position: relative;
+        right: 5em;
+        bottom: 8em;
+        font-size: 30px;
+    }
